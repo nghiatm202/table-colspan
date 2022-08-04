@@ -1,0 +1,31 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* style */
+.tableInfo {
+    margin: 50px;
+    width: 100%;
+    border-collapse: collapse;
+}
+.tableInfo th {
+    background-color: red;
+    padding: 12px 21px;
+}
+
+.tableInfo td {
+    background-color: yellow;
+    padding: 12px 21px;
+}
+
+.tableInfo .thFull {
+    background-color: #4B486F;
+    color: white;
+}
